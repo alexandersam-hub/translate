@@ -1,0 +1,7 @@
+version: '3'
+services:
+  image: translate: latest
+  container_name: translate
+  restart: always
+  ports:
+    - 8033:8033
